@@ -16,7 +16,7 @@
       <td [innerHTML]="crypto.market_cap_usd | number:0"></td>
       <td [innerHTML]="crypto.price_usd | number: '1.2-2'"></td>
       <td [innerHTML]="crypto.available_supply | number: 0"></td>
-      <td [innerHTML]="crypto.percent_change_24h * .01 | percent  : '1.1-2'"></td>
+      <td [innerHTML]="crypto.percent_change_24h * .01 | percent  : '1.1-2' | minusSignToParens"></td>
 
     </tr>
   </tbody>
