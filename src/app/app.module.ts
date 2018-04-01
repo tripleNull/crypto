@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { CryptoService } from '../services/crypto.service';
 import { CryptoTableComponent } from './crypto-table/crypto-table.component';
-//import { MinusSignToParens } from '../pipes/minus-to-parens';
+import { MinusSignToParens } from '../pipes/minus-to-parens';
 
 
 
@@ -14,7 +14,7 @@ import { CryptoTableComponent } from './crypto-table/crypto-table.component';
   declarations: [
     AppComponent,
     CryptoTableComponent,
-//    MinusSignToParens,
+    MinusSignToParens,
   ],
   imports: [
     BrowserModule,
